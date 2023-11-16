@@ -1,0 +1,125 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "Toaqzu (Hoegua, Latınalaı)";
+
+    key <TLDE> {	[     grave,	asciitilde	]	};
+    key <AE01> {	[	  1,	exclam 		]	};
+    key <AE02> {	[	  2,	at		]	};
+    key <AE03> {	[	  3,	numbersign	]	};
+    key <AE04> {	[	  4,	dollar		]	};
+    key <AE05> {	[	  5,	percent		]	};
+    key <AE06> {	[	  6,	asciicircum	]	};
+    key <AE07> {	[	  7,	ampersand	]	};
+    key <AE08> {	[	  8,	asterisk	]	};
+    key <AE09> {	[	  9,	parenleft	]	};
+    key <AE10> {	[	  0,	parenright	]	};
+    key <AE11> {	[     minus,	underscore,	endash,	emdash	]	};
+    key <AE12> {	[     equal,	plus		]	};
+
+    key <AD01> {	[	  q,	Q 		]	};
+    key <AD02> {	type[group1] = "FOUR_LEVEL_ALPHABETIC",
+                    [	  UA761, UA760, w,	W ]	};
+    key <AD03> {	[	  e,	E		]	};
+    key <AD04> {	[	  r,	R		]	};
+    key <AD05> {	[	  t,	T		]	};
+    key <AD06> {	[	  y,	Y		]	};
+    key <AD07> {	[	  u,	U		]	};
+    key <AD08> {	type[group1] = "FOUR_LEVEL_ALPHABETIC",
+                    [	idotless,	I,	i,	Iabovedot ] };
+    key <AD09> {	[	  o,	O		]	};
+    key <AD10> {	[	  p,	P		]	};
+    key <AD11> {	[ guillemotleft,	U2039,	bracketleft,	braceleft	]	};
+    key <AD12> {	[ guillemotright,	U203A,	bracketright,	braceright	]	};
+
+    key <AC01> {	[	  a,	A 		]	};
+    key <AC02> {	[	  s,	S		]	};
+    key <AC03> {	[	  d,	D		]	};
+    key <AC04> {	[	  f,	F		]	};
+    key <AC05> {	[	  g,	G		]	};
+    key <AC06> {	[	  h,	H		]	};
+    key <AC07> {	[	  j,	J		]	};
+    key <AC08> {	[	  k,	K		]	};
+    key <AC09> {	[	  l,	L		]	};
+    key <AC10> {	[ dead_circumflex,	dead_hook,	semicolon,	colon	]	};
+    key <AC11> {	[ dead_acute,	dead_diaeresis,	apostrophe,	quotedbl	]	};
+
+    key <AB01> {	[	  z,	Z 		]	};
+    key <AB02> {	[	  rightsinglequotemark, dead_macron, x, X		]	};
+    key <AB03> {	[	  c,	C		]	};
+    key <AB04> {	[	  dead_grave,	dead_belowdot,	v,	V		]	};
+    key <AB05> {	[	  b,	B		]	};
+    key <AB06> {	[	  n,	N		]	};
+    key <AB07> {	[	  m,	M		]	};
+    key <AB08> {	[	  comma,	less		]	};
+    key <AB09> {	[	  period,	greater		]	};
+    key <AB10> {	[	  slash,	question	]	};
+
+    key <BKSL> {	[	  backslash,	bar,	dead_caron,	dead_tilde		]	};
+    
+    key <SPCE> {	[	  space,	space,	nobreakspace,	 nobreakspace		] };
+    
+   include "level3(ralt_switch)"
+};
+
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "derani" {
+
+    name[Group1]= "Toaqzu (Hoegua, Deranı)";
+
+    key <TLDE> { [ grave, asciitilde ] };
+    key <AE01> { [ 1, exclam  ] };
+    key <AE02> { [ 2, at ] };
+    key <AE03> { [ 3, numbersign ] };
+    key <AE04> { [ 4, dollar  ] };
+    key <AE05> { [ 5, percent  ] };
+    key <AE06> { [ 6, asciicircum ] };
+    key <AE07> { [ 7, ampersand ] };
+    key <AE08> { [ 8, asterisk ] };
+    key <AE09> { [ 9, parenleft ] };
+    key <AE10> { [ 0, parenright ] };
+    key <AE11> { [ minus, underscore, endash, emdash ] };
+    key <AE12> { [ equal, plus ] };
+
+    key <AD01> { [ UF16C2 ] }; // Q
+    key <AD02> { [ UF16C1 ] }; // Ꝡ
+    key <AD03> { [ UF16CA ] }; // 2nd tone
+    key <AD04> { [ UF16BB ] }; // R
+    key <AD05> { [ UF16B7 ] }; // T
+    key <AD06> { [ UF16CE ] }; // diphthong
+    key <AD07> { [ UF16CB ] }; // 3rd tone
+    key <AD08> { [ UF16BD ] }; // NH
+    key <AD09> { [ UF16CC ] }; // 4th tone
+    key <AD10> { [ UF16B3 ] }; // P
+    key <AD11> { [ guillemotleft, U2039, bracketleft, braceleft ] };
+    key <AD12> { [ guillemotright, U203A, bracketright, braceright ] };
+
+    key <AC01> { [ UF16C5 ] }; // '
+    key <AC02> { [ UF16BA ] }; // S
+    key <AC03> { [ UF16B6 ] }; // D
+    key <AC04> { [ UF16B4 ] }; // F
+    key <AC05> { [ UF16C3 ] }; // G
+    key <AC06> { [ UF16C6 ] }; // H
+    key <AC07> { [ UF16BE ] }; // J
+    key <AC08> { [ UF16C4 ] }; // K
+    key <AC09> { [ UF16BC ] }; // L
+    key <AC10> { [ UF16CD, UF16DA, semicolon, colon ] }; // hiatus mark | null variable
+    key <AC11> { [ UF16D8, UF16D9, apostrophe, quotedbl ] }; // cartouche start | cartouche end 
+
+    key <AB01> { [ UF16B8 ] }; // Z
+    key <AB02> { [ UF16C0 ] }; // SH
+    key <AB03> { [ UF16B9 ] }; // C
+    key <AB04> { [ UF16BF ] }; // CH
+    key <AB05> { [ UF16B2 ] }; // B
+    key <AB06> { [ UF16B5 ] }; // N
+    key <AB07> { [ UF16B0, UF16B1 ] }; // M | M coda
+    key <AB08> { [ UF16D4, UF16D2, comma, less ] }; // subordination mark | prefix mark
+    key <AB09> { [ UF16D5, UF16D3, period, greater ] }; // declarative full stop | quotation mark
+    key <AB10> { [ UF16D6, UF16D7, slash, question ] }; // other full stop | question mark
+
+    key <BKSL> { [ backslash, bar] };
+    
+    key <SPCE> { [ space, space, nobreakspace,  nobreakspace ] };
+    
+   include "level3(ralt_switch)"
+};
