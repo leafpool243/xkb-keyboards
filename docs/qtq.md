@@ -42,9 +42,11 @@ This layout follows the standard U.S. QWERTY layout with the following exception
   </variantList>
 </layout>
 ```
-4. Add the following to ~/.XCompose.
+4. Add the following to ~/.XCompose.  If you already have `include "%L"` in your `.XCompose` file, you do *not* need it twice.
 
 ```
+include "%L"
+
 # Dotless ı + tone
 <dead_acute> <idotless>                 	: "í"   iacute # LATIN SMALL LETTER I WITH ACUTE
 <dead_diaeresis> <idotless>             	: "ï"   idiaeresis # LATIN SMALL LETTER I WITH DIAERESIS
