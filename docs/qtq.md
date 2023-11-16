@@ -1,7 +1,7 @@
-- [#Description](Description)
-  - [#Latin](Latin)
-  - [#Deranı](Deranı)
-- [#Instructions](Instructions)
+- [Description](#Description)
+  - [Latin](#Latin)
+  - [Deranı](#Deranı)
+- [Instructions](#Instructions)
 
 # Description
 [This file](https://github.com/leafpool243/xkb-keyboards/blob/main/qtq) contains layouts for the following:
