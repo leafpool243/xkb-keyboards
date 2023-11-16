@@ -3,7 +3,7 @@ Various XKB layouts for conlangs
 
 Click on the links for more details on the layouts.
 - qtq (Toaq, *Tóaqzu*)
-  - [https://github.com/leafpool243/xkb-keyboards/blob/main/docs/qtq/latin Latin]
+  - [https://github.com/leafpool243/xkb-keyboards/blob/main/docs/qtq/latin.md Latin]
   - Deranı
 - jbo (Lojban, *la .lojban.* / *lo jbobau*) — soon
   - zbalermorna
