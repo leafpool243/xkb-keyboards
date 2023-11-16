@@ -1,10 +1,12 @@
 # xkb-keyboards
 Various XKB layouts for conlangs
 
+Click on the links for more details on the layouts.
 - qtq (Toaq, *Tóaqzu*)
-  - Latin
+  - [https://github.com/leafpool243/xkb-keyboards/blob/main/docs/qtq/latin Latin]
   - Deranı
-- jbo (Lojban, *lo jbobau*) — soon
+- jbo (Lojban, *la .lojban.* / *lo jbobau*) — soon
+  - zbalermorna
 
 ## Instructions
 Download one of the keyboard files (e.g. [https://github.com/leafpool243/xkb-keyboards/blob/main/qtq qtq]) to the folder `/usr/share/X11/xkb/symbols/` with the same filename it has in this repo.
