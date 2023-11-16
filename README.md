@@ -5,7 +5,7 @@ Click on the links for more details on the layouts.
 - [qtq](https://github.com/leafpool243/xkb-keyboards/blob/main/docs/qtq.md) (Toaq, *Tóaqzu*)
   - Latin
   - Deranı
-- jbo (Lojban, *la .lojban.* / *lo jbobau*) — soon
+- jbo (Lojban, *la .lojban.* / *lo jbobau*) — coming soon
   - zbalermorna
 
 ## Instructions
