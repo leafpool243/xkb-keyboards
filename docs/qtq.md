@@ -149,4 +149,4 @@ include "%L"
 <dead_belowdot> <dead_circumflex> <U>        :"Ụ̂"
 ```
 
-5. Log out and log back in.  You should then be able to find the layouts in your keyboard settings.  *It is possible that you may have to step (3) whenever you update your system.*  Please be aware of this!  If this does happen, you may want take the chance to update the backups of `base.xml` and `evdev.xml` as well.
+5. Log out and log back in.  You should then be able to find the layouts in your keyboard settings.  *It is possible that you may have to step (3) whenever you update your system.*  Please be aware of this!  If this does happen, you may want take the opportunity to update the backups of `base.xml` and `evdev.xml` as well.
