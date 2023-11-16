@@ -5,13 +5,20 @@
 
 ## Latin
 This layout follows the standard U.S. QWERTY layout with the following exceptions:
-- The second tone is typable by striking the `'` key and then the vowel on which to apply the diacritic.
-- The third tone is typable by striking the `"` key (`Shift`+`'`)  and then the vowel on which to apply the diacritic.
-- The fourth tone is typable by striking the `;` key and then the vowel on which to apply the diacritic.
-- O’aomo (`’`) is typable by striking the `x` key
+- Tones:
+  - The second tone (◌́) is typable by striking the `'` key, followed by a vowel.
+  - The third tone (◌̈) is typable by striking the `"` key (`Shift`+`'`), followed by a vowel.
+  - The fourth tone (◌̂) is typable by striking the `;` key, followed by a vowel.
+- Letters:
+  - O’aomo (`’`) is typable by striking the `x` key
+  - `Ꝡ` and `ꝡ` are typable by striking the `W` (`Shift`+`w`) and `w` keys respectively.
+- Prefixes:
 - The underdot is typable by striking the `v` key and then the vowel on which to apply the diacritic.
   - If you also need a tone diacritic, you may type both `v` `[tone]` `[vowel]` or `[tone]` `v` `[vowel]`.
-- `«`, `»`, `‹`, and `›` are typable by striking the `[`, `]`, `{` (`Shift`+`[`), and `}` (`Shift`+`]`) keys respectively.
+ - The alternate first tone diacritic (◌̀) for the Prefix Reform is typable by striking the `V` key (`Shift`+`v`) and then the vowel on which to apply the diacritic.
+- Other:
+  - `«`, `»`, `‹`, and `›` are typable by striking the `[`, `]`, `{` (`Shift`+`[`), and `}` (`Shift`+`]`) keys respectively.
+  - The old tone diacritics ◌̄, ◌̌, ◌̉, ◌̀, and ◌̃ are typable by striking the `X` (`Shift`+`x`), `AltGr`+`\`, `:` (`Shift`+`;`), `AltGr`+`|` (`AltGr`+`Shift`+`\`) respectively, followed by a vowel
 
 # Instructions
 1. Download [qtq](https://github.com/leafpool243/xkb-keyboards/blob/main/qtq) to `/usr/share/X11/xkb/symbols/` with the filename `qtq`.
