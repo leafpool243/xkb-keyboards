@@ -47,7 +47,7 @@ xkb_symbols "basic" {
     key <AB01> {	[	  z,	Z 		]	};
     key <AB02> {	[	  rightsinglequotemark, dead_macron, x, X		]	};
     key <AB03> {	[	  c,	C		]	};
-    key <AB04> {	[	  dead_grave,	dead_belowdot,	v,	V		]	};
+    key <AB04> {	[	  dead_belowdot,	dead_grave,	v,	V		]	};
     key <AB05> {	[	  b,	B		]	};
     key <AB06> {	[	  n,	N		]	};
     key <AB07> {	[	  m,	M		]	};
