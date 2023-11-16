@@ -18,7 +18,24 @@ This layout follows the standard U.S. QWERTY layout with the following exception
  - The alternate first tone diacritic (◌̀) for the Prefix Reform is typable by striking the `V` key (`Shift`+`v`) and then the vowel on which to apply the diacritic.
 - Other:
   - `«`, `»`, `‹`, and `›` are typable by striking the `[`, `]`, `{` (`Shift`+`[`), and `}` (`Shift`+`]`) keys respectively.
-  - The old tone diacritics ◌̄, ◌̌, ◌̉, ◌̀, and ◌̃ are typable by striking the `X` (`Shift`+`x`), `AltGr`+`\`, `:` (`Shift`+`;`), `AltGr`+`|` (`AltGr`+`Shift`+`\`) respectively, followed by a vowel
+  - The old tone diacritics ◌̄, ◌̌, ◌̉, ◌̀, and ◌̃ are typable by striking the `X` (`Shift`+`x`), `AltGr`+`\`, `:` (`Shift`+`;`), `AltGr`+`|` (`AltGr`+`Shift`+`\`) respectively, followed by a vowel.
+
+## Deranı
+This layout mostly follows the layout of the consonants in the Latin layout. Since vowel characters are the same as consonants, those keys can be used for other purposes.
+The changes are as follows:
+- Tones:
+  - The second tone is typable by striking the consonant followed by `e`.
+  - The third tone is typable by striking the consonant followed by `u`.
+  - The fourth tone is typable by striking the consonant followed by `o`.
+- Letters and other symbols:
+  - O’aomo is typable by striking the `a` key.
+  - Coda `m` is typable by striking the `M` (`Shift`+`m`) key.
+  - The diphthong mark is typable by striking the `y` key.
+  - The hiatus mark is typable by striking the `;` key.
+  - The null variable mark is typable by striking the `:` (`Shift`+`;`) key.
+  - The cartouche start and cartouche end characters are typable by striking the `'` and `"` (`Shift`+`"`) keys respectively.
+  - The subordination mark, declarative full stop, and non-declarative full stop are typable by striking the `,`, `.`, and `/` keys respectively.
+  - The prefix mark, quotation mark, and question mark are typable by striking the `<` (`Shift`+`,`), `>` (`Shift`+`.`), and `?` (`Shift`+`/`) keys respectively.
 
 # Instructions
 1. Download [qtq](https://github.com/leafpool243/xkb-keyboards/blob/main/qtq) to `/usr/share/X11/xkb/symbols/` with the filename `qtq`.
