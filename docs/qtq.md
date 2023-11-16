@@ -4,7 +4,7 @@
 - [Instructions](#Instructions)
 
 # Description
-[This file](https://github.com/leafpool243/xkb-keyboards/blob/main/qtq) contains layouts for the following:
+[This file](https://github.com/leafpool243/xkb-keyboards/blob/main/qtq) contains two keyboard layouts for the [Toaq language](https://toaq.net).
 - Latin layout
 - Deranı layout
 
