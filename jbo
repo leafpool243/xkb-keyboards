@@ -1,0 +1,56 @@
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "la .lojban. (zbalermorna)";
+
+    key <TLDE>	{[	grave,	asciitilde	]};
+    key <AE01>	{[	1,	 exclam	]};
+    key <AE02>	{[	2,	 at	]};
+    key <AE03>	{[	3,	 numbersign	]};
+    key <AE04>	{[	4,	 dollar	]};
+    key <AE05>	{[	5,	 percent	]};
+    key <AE06>	{[	6,	 asciicircum	]};
+    key <AE07>	{[	7,	 ampersand	]};
+    key <AE08>	{[	8,	 asterisk	]};
+    key <AE09>	{[	9,	 parenleft	]};
+    key <AE10>	{[	0,	 parenright	]};
+    key <AE11>	{[	UED9B	]}; // tcenabu
+    key <AE12>	{[	UED8C,	UED8E	]}; // patonga, citonga
+
+    key <AD01>	{[	UEDAA	]}; // iy
+    key <AD02>	{[	UEDAB	]}; // uy
+    key <AD03>	{[	UEDA1,	UEDB1	]}; // ebu, seplimeebu
+    key <AD04>	{[	UED94	]}; // ry
+    key <AD05>	{[	UED81	]}; // ty
+    key <AD06>	{[	UEDA5,	UEDB5	]}; // ybu, seplimeybu
+    key <AD07>	{[	UEDA4,	UEDB4	]}; // ubu, seplimeubu
+    key <AD08>	{[	UEDA2,	UEDB2	]}; // ibu, seplimeibu
+    key <AD09>	{[	UEDA3,	UEDB3	]}; // obu, seplimeubu
+    key <AD10>	{[	UED80	]}; // py
+    key <AD11>	{[	UEDA7,	UEDB7	]}; // eibu, seplimeeibu
+    key <AD12>	{[	UEDA8,	UEDB8	]}; // oibu, seplimeoibu
+
+    key <AC01>	{[	UEDA0,	UEDB0	]}; // abu, seplimeabu
+    key <AC02>	{[	UED85	]}; // sy
+    key <AC03>	{[	UED91	]}; // dy
+    key <AC04>	{[	UED83	]}; // fy
+    key <AC05>	{[	UED92	]}; // gy
+    key <AC06>	{[	UED8A	]}; // yhy
+    key <AC07>	{[	UED96	]}; // jy
+    key <AC08>	{[	UED82	]}; // ky
+    key <AC09>	{[	UED84	]}; // ly
+    key <AC10>	{[	UEDA6,	UEDB6	]}; // aibu, seplimeaibu
+    key <AC11>	{[	UEDA9,	UEDB9	]}; // aubu, seplimeaubu
+    key <BKSL>	{[	UED8D,	UED8F	]}; // retonga, votonga
+
+    key <AB01>	{[	UED95	]}; // zy
+    key <AB02>	{[	UED88	]}; // xy
+    key <AB03>	{[	UED86	]}; // cy
+    key <AB04>	{[	UED93	]}; // vy
+    key <AB05>	{[	UED90	]}; // by
+    key <AB06>	{[	UED97	]}; // ny
+    key <AB07>	{[	UED87	]}; // my
+    key <AB08>	{[	UED98	]}; // bahebu
+    key <AB09>	{[	UED89	]}; // denpabu
+    key <AB10>	{[	UED99	]}; // smajibu
+};
